@@ -23,7 +23,7 @@ import (
 	"github.com/hashicorp/go-hclog"
 	goPlugin "github.com/hashicorp/go-plugin"
 
-	instanaplugin "github.com/instana/rollouts-plugin-metric-instana/pkg/plugin"
+	instanaplugin "github.com/argoproj-labs/rollouts-plugin-metric-instana/pkg/plugin"
 )
 
 // Read from the package under test so there is exactly one definition of the

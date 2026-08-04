@@ -35,7 +35,7 @@ metric-provider interface (`Run`, `Resume`, `Terminate`, `GarbageCollect`).
 **Prerequisites:** Go (see `go.mod` for the minimum version), `make`.
 
 ```sh
-git clone https://github.com/instana/rollouts-plugin-metric-instana.git
+git clone https://github.com/argoproj-labs/rollouts-plugin-metric-instana.git
 cd rollouts-plugin-metric-instana
 
 make hooks    # once: install the pre-commit hook

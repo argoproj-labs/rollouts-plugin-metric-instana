@@ -37,7 +37,7 @@ canary back automatically.
 ### 1. Register the plugin with the Argo Rollouts controller
 
 Download the binary for your node architecture from the
-[latest GitHub release](https://github.com/instana/rollouts-plugin-metric-instana/releases)
+[latest GitHub release](https://github.com/argoproj-labs/rollouts-plugin-metric-instana/releases)
 and update the sha256 from the `SHA256SUMS` file on that release page.
 
 ```yaml
@@ -50,7 +50,7 @@ metadata:
 data:
   metricProviderPlugins: |-
     - name: "instana/metrics"
-      location: "https://github.com/instana/rollouts-plugin-metric-instana/releases/download/<version>/rollouts-plugin-metric-instana_<version>_linux_amd64"
+      location: "https://github.com/argoproj-labs/rollouts-plugin-metric-instana/releases/download/<version>/rollouts-plugin-metric-instana_<version>_linux_amd64"
       sha256: "<sha256-from-SHA256SUMS>"
 ```
 
